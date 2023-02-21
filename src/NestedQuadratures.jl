@@ -1,5 +1,11 @@
 module NestedQuadratures
 
-# Write your package code here.
+using FastTransforms: clenshawcurtisnodes, chebyshevmoments1, clenshawcurtisweights
+
+abstract type NestedQuadrature{F<:AbstractFloat, I<:Integer} end
+
+# Clenshaw-Curtis
+include("ClenshawCurtis.jl")
+export ClenshawCurtis
 
 end

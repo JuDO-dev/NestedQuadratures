@@ -3,6 +3,9 @@ uuid = "be84acb1-8bce-4f57-b94b-f01ee9e129e1"
 authors = ["astroEduardo <72969764+astroEduardo@users.noreply.github.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+FastTransforms = "057dd010-8810-581a-b7be-e3fc3b93f78c"
+
 [compat]
 julia = "1.6"
 
