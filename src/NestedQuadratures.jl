@@ -1,7 +1,7 @@
 module NestedQuadratures
 
 using FastTransforms: clenshawcurtisnodes, chebyshevmoments1, clenshawcurtisweights
-using QuadGK
+using QuadGK: kronrod
 
 abstract type NestedQuadrature{F<:AbstractFloat, I<:Integer} end
 
