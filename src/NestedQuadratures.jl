@@ -8,4 +8,8 @@ abstract type NestedQuadrature{F<:AbstractFloat, I<:Integer} end
 include("ClenshawCurtis.jl")
 export ClenshawCurtis
 
+# Gauss-Kronrod
+include("GaussKronrod.jl")
+export GaussKronrod
+
 end
