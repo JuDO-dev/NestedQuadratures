@@ -1,8 +1,5 @@
 module NestedQuadratures
 
-using Pkg
-Pkg.add("QuadGK")
-
 using FastTransforms: clenshawcurtisnodes, chebyshevmoments1, clenshawcurtisweights
 using QuadGK: kronrod
 
